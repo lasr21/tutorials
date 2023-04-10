@@ -37,7 +37,7 @@ long previousMillis = 0;  // last time the heart rate was checked, in ms
 
 void setup() {
   Serial.begin(9600);    // initialize serial communication
-  pinMode(13, OUTPUT);   // initialize the LED on pin 13 to indicate when a central is connected
+  pinMode(11, OUTPUT);   // initialize the LED on pin 13 to indicate when a central is connected
 
   /* Set a local name for the BLE device
      This name will appear in advertising packets
